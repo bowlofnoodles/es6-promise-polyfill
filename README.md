@@ -46,7 +46,7 @@ new Promise((resolve, reject) => {
 
 + 非模块化环境
 
-下载[index.min.js](./lib/index.min.js)，然后在script标签引用。
+下载[lib/index.min.js](https://github.com/bowlofnoodles/es6-promise-polyfill/blob/main/lib/index.min.js)，然后在script标签引用。
 
 ``` html
 <script src="your path to save index.min.js"></script>

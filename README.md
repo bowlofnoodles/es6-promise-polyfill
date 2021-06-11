@@ -2,7 +2,7 @@
 
 [es6-promise-polyfill](https://github.com/bowlofnoodles/es6-promise-polyfill)
 
-umd模块规范，支持node，浏览器或者直接引用js使用`PromisePolyfill`全局变量。
+`umd`模块规范，支持`node`，浏览器或者直接引用`js`使用`PromisePolyfill`全局变量。
 
 ## 安装
 
@@ -53,7 +53,7 @@ new Promise((resolve, reject) => {
 ```
 
 ``` javascript
-// 使用全局变量 PromisePolyfill，然后跟es6语法使用方法
+// 使用全局变量 PromisePolyfill，然后跟es6语法使用方法一样
 new PromisePolyfill((resolve, reject) => {
   setTimeout(() => {
     resolve(true);

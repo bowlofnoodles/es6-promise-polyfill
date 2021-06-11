@@ -2,6 +2,8 @@ const PENDING = 'pending';
 const FULFILLED = 'fulfilled';
 const REJECTED = 'rejected';
 
+const queueMicrotask = typeof queueMicrotask === 'undefined' ? setTimeout : queueMicrotask;
+
 function PromisePolyfill(executor) {
   this.status = PENDING;
   this.value = void 0;

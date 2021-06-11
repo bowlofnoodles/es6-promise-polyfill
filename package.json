@@ -1,6 +1,6 @@
 {
   "name": "promise-polyfill",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "es6 promise polyfill",
   "main": "lib/index.min.js",
   "scripts": {

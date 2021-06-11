@@ -1,5 +1,5 @@
 {
-  "name": "promise-polyfill",
+  "name": "es-promise-polyfill",
   "version": "1.0.0",
   "description": "es6 promise polyfill",
   "main": "lib/index.min.js",

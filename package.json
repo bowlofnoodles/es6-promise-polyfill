@@ -21,6 +21,10 @@
   "maintainers": [
     "jerry_cheung<huahuazfh@qq.com>"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bowlofnoodles/es6-promise-polyfill"
+  },
   "author": "bowlofnoodles",
   "license": "ISC",
   "devDependencies": {
